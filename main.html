@@ -1,1 +1,118 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #0078D7;
+            color: white;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        section {
+            padding: 20px;
+            margin: 10px auto;
+            max-width: 800px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #0078D7;
+        }
+        .skill {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .skill-icon {
+            margin-right: 10px;
+        }
+        .skill-bar {
+            flex-grow: 1;
+            height: 10px;
+            background: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            position: relative;
+        }
+        .skill-bar span {
+            display: block;
+            height: 100%;
+            background: #0078D7;
+        }
+        .skill-label {
+            margin-left: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="profile.jpg" alt="Your Picture">
+        <h1>Mritunjay Patel</h1>
+        <p>Full-Stack Developer | AI Enthusiast</p>
+    </header>
+
+    <section>
+        <h2>Name</h2>
+        <p>Mritunjay Patel</p>
+    </section>
+
+    <section>
+        <h2>Email</h2>
+        <p>mritunjay.patel@example.com</p>
+    </section>
+
+    <section>
+        <h2>Profile</h2>
+        <p>Full-Stack Developer specializing in MERN Stack, with expertise in AI training and web development.</p>
+    </section>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I'm a passionate developer from Uttar Pradesh, India, with experience in freelancing and building dynamic, user-friendly websites. I aim to create impactful solutions and enjoy mentoring AI models.</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="skill">
+            <i class="fab fa-html5 skill-icon"></i>
+            <div class="skill-bar"><span style="width: 90%;"></span></div>
+            <span class="skill-label">HTML - 90%</span>
+        </div>
+        <div class="skill">
+            <i class="fab fa-css3-alt skill-icon"></i>
+            <div class="skill-bar"><span style="width: 85%;"></span></div>
+            <span class="skill-label">CSS - 85%</span>
+        </div>
+        <div class="skill">
+            <i class="fab fa-js-square skill-icon"></i>
+            <div class="skill-bar"><span style="width: 80%;"></span></div>
+            <span class="skill-label">JavaScript - 80%</span>
+        </div>
+        <div class="skill">
+            <i class="fab fa-react skill-icon"></i>
+            <div class="skill-bar"><span style="width: 75%;"></span></div>
+            <span class="skill-label">React - 75%</span>
+        </div>
+    </section>
+</body>
+</html>
